@@ -1,0 +1,9 @@
+<nav class="indigo">
+    <div class="nav-wrapper">
+      <ul>
+        <li ui-sref="people" ui-sref-active="active"><a>people</a></li>
+        <li ui-sref="about" ui-sref-active="active"><a>about</a></li>
+        <li class="right"><a ng-click="$ctrl.handleSession()">{{$ctrl.loggedIn ? 'Logout' : 'Login'}}</a></li>
+      </ul>
+    </div>
+  </nav>
